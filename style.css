@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+#about {
+    height: 100vh;
+    background-image: url("img/blue-brick-wall-chair-1282315.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.tow {
+    height: 1000px;
+}
+
+#about img {
+    width: 300px;
+}
+
+#about .container-fluid {
+    background-color: rgba(10, 8, 1, 0.425);
+}
+
+h1 {
+    font-weight: 300;
+
+}
+
+h1:after {
+    content: '';
+    display: block;
+    border-bottom: 1px solid rgb(98, 189, 250);
+    width: 30%;
+    margin-left: 70%;
+}
+
+p {
+    font-family: 'Lato';
+    font-size: 16px;
+}
+
+h2 {
+    color: rgb(98, 189, 250);
+}
+
+.bp {
+    color: black
+}
+
+#career {
+    background-color: grey;
+}
+
+#career h2 {
+    color: white;
+}
